@@ -21,3 +21,12 @@ Sisteminizdeki servisleri calistirmak, durdurmak ve durumlarini ogrenmek icin ku
     $ service mongod status
 
 *mongod* isimli servisin durumunu gosterir.
+
+**rm**
+
+Bir dosyayı veya klasörü silmek için kullanırsınız. Eğer klasör siliyorsanız `rf` seçeneğini de belirtmelisiniz (rf: remove force - silmeye zorla).
+
+   $ rm test.md
+   $ rm -rf myfolder
+
+yukarıdaki örneklerden biri dosyayı siler diğeri de klasörü siler. Klasörünüz boş ise klasörü silmek için `rmdir` komutunu da kullanabilirsiniz.
