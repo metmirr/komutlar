@@ -17,3 +17,11 @@ Host parametresinde belirtilen adresteki veri tabaninin bir kopyasini indirir. I
 Elinizdeki veri tabani kopyasini kullanarak baska bir veri tabanina veri eklemek icin kullanilir.
 
     $ mongorestore --host 1.1.1.1:27017 -u metmirr -p 'met$mirr123' --db testdbdump --dir /home/metmirr/Documents
+
+**mongoexport**
+
+MongoDB'den CSV veya JSON formatinda veri almanizi saglar.
+
+    $ mongoexport --host 1.1.1.1 --port 27017 -u metmirr -p 'met$mirr123' -db testdb -c names -o names.json
+
+`-c` secenegi collection ismini belirtir, `-o` ciktinin nereye yazilacagini belirtir. Default olarak json ciktisi alirsiniz, csv ciktisi icin `--type csv` seklinde belirtmelisiniz.
