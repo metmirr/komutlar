@@ -25,3 +25,12 @@ MongoDB'den CSV veya JSON formatinda veri almanizi saglar.
     $ mongoexport --host 1.1.1.1 --port 27017 -u metmirr -p 'met$mirr123' -db testdb -c names -o names.json
 
 `-c` secenegi collection ismini belirtir, `-o` ciktinin nereye yazilacagini belirtir. Default olarak json ciktisi alirsiniz, csv ciktisi icin `--type csv` seklinde belirtmelisiniz.
+
+
+**mongoimport**
+
+MongoDB'ye CSV veya JSON formatinda veri aktarmanızı saglar.
+
+    $ mongoimport --host 1.1.1.1 --port 27017 -u metmirr -p 'met$mirr123' -db testdb -c names --type json --file names.json --drop
+    
+yukarıdaki örnekte `names.json` ismindeki bir json dosyasındaki verileri `names` isminde bir collection'a aktarıyorum. Eğer bu collection içerisinde veri varsa `--drop` seçeneği ile silinmesini istiyorum, tam tersi eğer silinmesini ismiyorsanız bu seçeneği kaldırmanız gerekir.
