@@ -31,10 +31,22 @@ Bir dosyayı veya klasörü silmek için kullanırsınız. Eğer klasör siliyor
 
 yukarıdaki örneklerden biri dosyayı siler diğeri de klasörü siler. Klasörünüz boş ise klasörü silmek için `rmdir` komutunu da kullanabilirsiniz.
 
-
 **touch**
 
 Boş bir dosya oluşturmanızı sağlar.
 
     $ touch example.py
     
+**mv**
+
+Bir klasörü taşımak için veya bir dosyayı yeniden isimlendirmek için kullanılabilir.
+
+    $ mv file1 file2
+
+`file1` isimli dosyayı file2 olarak isimlendirir.
+
+    $ mv Desktop/config.json Projects/myapp
+    
+ `Desktop` dizininde bulunan `config.json` dosyasını `Projects/myapp` dizinine taşır
+ 
+ 
