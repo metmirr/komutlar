@@ -9,3 +9,11 @@ Terminalde yazdığınız herşeyi siler ama kursorun konumuna göre değişir. 
 **ctrl + w**
 
 Terminalde yazdığınız bir kelimeyi silmenizi sağlar.
+
+**ctrl + shift + c**
+
+Terminalde secili olan metni kopyalar.
+
+**ctrl + shift + v**
+
+Kopyalanmis olan metni terminalde yapistirmak icin kullanilir.
