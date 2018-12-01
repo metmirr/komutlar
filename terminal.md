@@ -1,3 +1,12 @@
+**ls**
+
+Bulunduğunuz dizindeki herşeyi listeler. *ls -l* daha detaylı bir listeleme yapar. *ls -a* dizinde olup da gözükmeyen elemanları da görüntüler. Örnegin . (nokta) ile başlayan klasör veya dosyaları görmek isterseniz kullanabilirsiniz.
+
+**pwd**
+
+İçirisinde bulunduğunuz dizinin tam yolunu gösterir.
+
+
 **ctrl + alt + t**
 
 Yeni bir terminal penceresi açar.
