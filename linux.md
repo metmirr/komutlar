@@ -49,4 +49,16 @@ Bir klasörü taşımak için veya bir dosyayı yeniden isimlendirmek için kull
     
  `Desktop` dizininde bulunan `config.json` dosyasını `Projects/myapp` dizinine taşır
  
+ **mkdir**
  
+ Klasör veya klasörler oluşturmak için kullanılır.
+ 
+     $ mkdir myfiles
+
+`myfiles` isminde bir dizin oluşturur
+
+    $ mkdir dir1 dir2
+
+`dir1`, `dir2` isminde iki dizin oluşturur. *mkdir* komutu ile birden fazla dizin oluşturabilirsiniz.
+
+
