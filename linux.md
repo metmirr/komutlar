@@ -61,4 +61,18 @@ Bir klasörü taşımak için veya bir dosyayı yeniden isimlendirmek için kull
 
 `dir1`, `dir2` isminde iki dizin oluşturur. *mkdir* komutu ile birden fazla dizin oluşturabilirsiniz.
 
+**cp**
 
+Dosyaları veya klasörleri kopyalamanızı sağlar.
+
+    $ cp file1 file2
+    
+`file1`'i `file2` dosyasına kopyalar; file2 isminde bir dosya mevcut değilse oluşturur ve file1'in içerisiğini kopyalar, eğer dosya varsa sadece içeriği kopyalar.
+
+    $ cp file1 file2 dir1
+    
+`file1` ve `file2` yi `dir1` isminde bir klasöre kopyalar.
+
+    $ cp file1 dir1 dir2
+    
+ `file1` ve `dir1`'ı `dir2` isminde bir klasöre kopyalar.
