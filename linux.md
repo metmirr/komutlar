@@ -76,3 +76,20 @@ Dosyaları veya klasörleri kopyalamanızı sağlar.
     $ cp file1 dir1 dir2
     
  `file1` ve `dir1`'ı `dir2` isminde bir klasöre kopyalar.
+
+**apt**
+
+Debian tabanlı işletim sistemleri için paket yönetimi aracıdır.
+
+    $ apt update
+
+kurulu olan ve güncellenmesi bulunan paketleri günceller.
+
+    $ apt search {{package_name}}
+
+verilen paket ismi için arama yapar.
+
+    $ apt show {{package}}
+    
+verilen paket ismindeki paketin bilgilerini görüntüler.
+
