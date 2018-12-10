@@ -23,3 +23,6 @@ Pipenv ile paket yüklemek:
     
 *flask* ismindeki paketi sanal ortamınıza yükler ve bu paketi Pipfile dosyasına ekler.
 
+Yüklü olan paketleri listelemek için:
+
+    $ pipenv graph
